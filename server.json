@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/meta_ads-mcp",
+  "title": "Meta Ads (Facebook & Instagram)",
+  "description": "Read and manage Meta Ads campaigns, ad sets, ads, audiences, pages and Business Manager. You provide",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/meta_ads-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_meta_ads"
+    }
+  ]
+}
